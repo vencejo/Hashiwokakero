@@ -1,4 +1,4 @@
-MEMORIA PRÁCTICA DE PROGRAMACIÓN III de la UNED (Curso 2009-2010)
+Proyecto Final de la UNED (Curso 2009-2010)
 ===========================================================
 Lenguaje Java
 
