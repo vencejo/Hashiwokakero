@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=EntSal()
+comment1.params=dimension
+comment1.target=void\ ponerDimension(int)
+comment2.target=int\ obtenerDimension()
+comment3.params=ruta
+comment3.target=ArrayList<Isla>\ creaListaDeIslas(String)
+comment3.text=\nDada\ la\ ruta\ en\ la\ que\ se\ encuentra\ el\ archivo\ del\ tablero\ construye\ la\nlista\ de\ islas\ \n\n
+comment4.params=arrayAimprimir
+comment4.target=void\ imprimePuentes(char[][])
+comment4.text=\nImprime\ un\ tablero\ en\ un\ archivo\ de\ texto\ \ con\ los\ los\ puentes\ tendidos\ \npara\ eso\ se\ sirve\ del\ metodo\ puentesAarray\ que\ pasa\ primero\ los\ puentes\na\ un\ array\ bidimensional\n\nPor\ comodidad\ creara\ un\ array\ bidimensional\ con\ los\ datos\ de\ los\ puentes\nque\ luego\ imprimira\ linea\ por\ linea\ con\ los\ metodos\ de\ impresion\n\n\n
+comment5.params=puentesTendidos\ listaDeIslas
+comment5.target=char[][]\ puentesAarray(HashSet<Puente>,\ ArrayList<Isla>)
+comment5.text=\nPasa\ la\ informacion\ de\ los\ puentes\ a\ un\ array\ bidimensional\ que\ luego\ sera\u00A1\nmas\ facil\ de\ imprimir\n\nAntes\ de\ utilizar\ propiamente\ este\ metodo\ tengo\ que\ hacer\ la\ operacion\ de\ \nunion\ entre\ los\ puentes\ Verticales\ y\ Horizontales\ para\ crear\ el\ conjunto\ de\ntodos\ los\ puentes\ tendidos\n\n
+comment6.params=puentesVerticales\ puentesHorizontales\ listaDeIslas
+comment6.target=void\ imprimirHashi(HashSet<Puente>,\ HashSet<Puente>,\ ArrayList<Isla>)
+comment6.text=\nImprime\ en\ el\ fichero\ dado\ en\ la\ ruta\ la\ situacion\ actual\ del\ Hashi\ con\ los\ puentes\ que\ \nse\ hayan\ tendido\ y\ los\ valores\ actuales\ de\ las\ islas\n\n
+numComments=7

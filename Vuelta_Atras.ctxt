@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Vuelta_Atras()
+comment0.text=\nConstructor\n\n
+comment1.params=limite
+comment1.target=Vuelta_Atras(int)
+comment1.text=\nConstructor\ para\ el\ caso\ de\ trabajar\ con\ hashis\n\n
+comment2.target=int\ obtenerNodos()
+comment3.target=int\ obtenerNodosLimite()
+comment4.params=hashiDePartida\ islaDePartida\ islaDeLlegada
+comment4.target=Hashi\ generar_ensayo(Hashi,\ Isla,\ Isla)
+comment4.text=\nDado\ un\ Hashi\ de\ partida\ y\ un\ par\ de\ islas\ devuelve\ este\ hashi\ con\ las\ dos\ islas\ conectadas,\ adem\u00E1s,\ \nsi\ el\ nuevo\ puente\ ha\ provocado\ la\ creaci\u00F3n\ de\ islas\ afortunadas\ a\ su\ alrededor\ se\ tienden\ los\ puentes\ de\ \nestas\ afortunadas\n\n@param\ \ \ hashiDePartida,\ \ islaDePartida,\ \ islaDeLlegada\ \ \ el\ hashi\ y\ las\ dos\ islas\ iniciales\n@return\ \ \ \ \ hashiDePartida\ que\ ha\ sido\ modificado\ con\ los\ nuevos\ puentes,\ el\ metodo\ devuelve\ null\ si\ el\nhashi\ a\ devolver\ no\ cumple\ con\ las\ reglas\ del\ juego\n\n
+comment5.params=hashiDePartida
+comment5.target=ArrayList<Hashi>\ compleciones(Hashi)
+comment5.text=\nLas\ compleciones\ del\ algoritmo\ de\ vuelta\ atras\:\ Las\ compleciones\ de\ un\ hashi\ dado\ seran\ una\ lista\ de\ hashis\ que\nse\ han\ generado\ a\ partir\ de\ el.\ Cada\ hashi\ nuevo\ generado\ se\ mira\ en\ la\ lista\ global\ de\ los\ hashis\ que\ ya\ han\nsido\ generados\ "almacenListas",\ si\ no\ esta\ en\ ella\ se\ le\ mete\ y\ si\ ya\ estaba\ se\ le\ descarta\ para\ las\ compleciones\nesto\ nos\ evita\ el\ tener\ que\ estar\ considerando\ hashis\ duplicados\ en\ las\ diferentes\ compleciones\n\n@param\ \ \ hashiDePartida\ \ \ el\ hashi\ sobre\ el\ que\ se\ van\ a\ hacer\ las\ compleciones\n@return\ \ \ \ \ listaHashisNuevos\ lista\ con\ todos\ los\ hashis\ que\ se\ pueden\ generar\ a\ partir\ del\ hashi\ de\ partida\n\n
+comment6.params=hashi\ myEntSal\ depuracion
+comment6.target=boolean\ vueltaAtras(Hashi,\ EntSal,\ boolean)
+comment6.text=\nEl\ algoritmo\ de\ vuelta\ atras\n\n@param\ \ \ hashi\ \ \ el\ hashi\ sobre\ el\ que\ se\ va\ a\ aplicar\ el\ algoritmo\n@param\ \ \ myEntSal\ datos\ para\ poder\ imprimir\ la\ solucion\n@param\ \ \ depuracion\ si\ es\ \=1\ se\ activa\ la\ depuracion\ y\ se\ imprimen\ los\ hashis\ intermedios\ny\ si\ es\ \=0\ solo\ se\ imprime\ la\ solucion\ final\n\n@return\ acabado\ \ me\ indica\ si\ se\ ha\ llegado\ al\ final\ del\ hashi\ o\ no\n\n
+comment7.params=listaHashis
+comment7.target=ArrayList<Hashi>\ OrdenarHashisSegunCandidatas(ArrayList<Hashi>)
+comment7.text=\nOrdena\ un\ ArrayList\ de\ Hashis\ segun\ el\ tama\u00F1o\ de\ sus\ listas\ de\ candidatas\ \n\n
+comment8.params=listaHashis
+comment8.target=ArrayList<Hashi>\ Ordenar_Insercion(ArrayList<Hashi>)
+comment8.text=\nOrdena\ un\ ArrayList\ de\ Hashis\ segun\ el\ tama\u00F1o\ de\ sus\ listas\ de\ candidatas\ por\ el\ algoritmo\ de\ insercion\n\n
+numComments=9

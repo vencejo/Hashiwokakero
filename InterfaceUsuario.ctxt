@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=InterfaceUsuario()
+comment0.text=\nConstructor\ \n\n
+comment1.params=nombreFichero
+comment1.target=void\ setNombreFichero(String)
+comment1.text=\nActualiza\ el\ campo\ entrada\ de\ datos\n\n
+comment2.target=void\ setModoTraza()
+comment2.text=\nActualiza\ el\ campo\ traza,\ poniendo\ el\ objeto\ interfaz\ en\ modo\ traza\n\n
+comment3.params=limite
+comment3.target=void\ setNodosLimite(int)
+comment3.text=\nActualiza\ el\ campo\ nodos\ limite\n\n
+comment4.target=void\ mostrarAyuda()
+comment4.text=\nActualiza\ el\ campo\ ayudaAmostrar\n\n
+comment5.target=boolean\ getModoAyuda()
+comment5.text=\nMuestra\ el\ campo\ ayudaAmostrar\n\n
+comment6.target=void\ ayuda()
+comment6.text=\nImprime\ la\ ayuda\n\n
+comment7.target=void\ IniciarPrograma()
+comment7.text=\nMetodo\ de\ inicio\ ,\ que\ pone\ a\ trabajar\ \ a\ las\ demas\ clases\n\nValores\ iniciales\:\nString\ entradaDatos\ \=\ "C\:/Users/Diego/Desktop/Practica\ Programacion\ 3/PracticaP3/banco\ de\ pruebas/ejemploHashi13_13.txt";\n\n\n
+numComments=8

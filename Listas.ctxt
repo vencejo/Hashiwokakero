@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Listas()
+comment0.text=\nConstructor\ de\ la\ clase\n\n
+comment1.params=listaInicial
+comment1.target=Listas(ArrayList<Isla>)
+comment1.text=\nConstructor\ de\ la\ clase\ con\ parametros\n\n
+comment2.target=int\ obtenerLongitud()
+comment2.text=\nEstractor\ de\ la\ longitud\n\n
+comment3.target=ArrayList<Isla>\ obtenerListaDeIslas()
+comment3.text=\nEstractor\ de\ la\ lista\ de\ islas\n\n
+comment4.params=L
+comment4.target=int\ compareTo(Object)
+comment4.text=\nComparador\ de\ listas\n\n
+comment5.params=listaA\ listaB
+comment5.target=boolean\ igualdadListas(ArrayList<Isla>,\ ArrayList<Isla>)
+comment5.text=\nCompara\ dos\ ArrayList\ de\ islas\ y\ devuelve\ verdadero\ si\ ambos\ tienen\ las\ mismas\ islas\ \n\n
+comment6.params=isla\ listaIslas
+comment6.target=boolean\ contiene(Isla,\ ArrayList<Isla>)
+comment6.text=\nMira\ si\ una\ lista\ de\ islas\ contiene\ una\ isla\ con\ las\ coordenadas\ de\ la\ pasada\ como\ parametro\n\n
+comment7.params=isla\ listaIslas
+comment7.target=void\ borra(Isla,\ ArrayList<Isla>)
+comment7.text=\nBorra\ de\ una\ lista\ de\ islas\ la\ isla\ que\ tenga\ las\ mismas\ coordenadas\ que\ la\ pasada\ como\ \nparametro\n\n
+numComments=8

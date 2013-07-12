@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=rutaEntradaDatos\ depuracion
+comment0.target=Tratamiento(String,\ boolean)
+comment0.text=\nConstructor\ de\ la\ clase\ Tratamiento\n\n
+comment1.target=String\ obtenerRutaEntrada()
+comment1.text=\nDevuelve\ la\ ruta\ de\ entrada\ de\ los\ datos\n\n
+comment2.params=listaDeIslasIniciales\ depuracion
+comment2.target=Hashi\ generarHashiInicial(ArrayList<Isla>,\ boolean)
+comment2.text=\nMetodo\ para\ generar\ el\ Hashi\ inicial\ partiendo\ de\ la\ lista\ inicial\ de\ islas\ny\ tendiendo\ los\ puentes\ de\ las\ islas\ afortunadas\ y\ semiafortunadas\ en\ sucesivas\ pasadas\n\nEl\ metodo\ devuelve\ null\ si\ los\ datos\ iniciales\ no\ representan\ a\ un\ hashi\ valido\n\n
+comment3.params=hashiInicio\ hashiOriginal\ nuevasAfortunadas\ pasada\ myEntSal\ depuracion
+comment3.target=Hashi\ tratarHashi(Hashi,\ Hashi,\ boolean,\ int,\ EntSal,\ boolean)
+comment3.text=\nAl\ tratar\ el\ Hashi\ voy\ tendiendo\ los\ puentes\ de\ las\ islas\ afortunadas\ y\ semi\ afortunadas\ en\ sucesivas\ pasadas,\ ya\ que\ con\ una\nsola\ pasada\ no\ basta\ ,\ porque\ el\ tender\ un\ puente\ puede\ hacer\ que\ las\ islas\ adyacentes\ se\ conviertan\ en\ afortunadas\ y\ al\ tender\nlos\ puentes\ de\ estas\ se\ formen\ nuevas\ afortunadas,\ creando\ as\u00ED\ una\ cascada\ de\ afortunadas.\n\n
+comment4.params=hashiInicio\ hashiOriginal\ nuevasAfortunadas\ pasada\ myEntSal\ depuracion
+comment4.target=Hashi\ buscaAfortunadas(Hashi,\ Hashi,\ boolean,\ int,\ EntSal,\ boolean)
+comment4.text=\nBusca\ afortunadas\:\ \n\nBusca\ islas\ afortunadas\ en\ el\ Hashi\ y\ va\ tendiendo\ sus\ islas,\ devuelve\ el\ hashi\ con\ todos\ los\ puentes\nde\ las\ islas\ afortunadas\ tendidos\n@param\ hashiInicio\ se\ le\ pasa\ este\ hashi\ para\ que\ busque\ islas\ afortunadas\ en\ el\n@return\ hashiInicio\ devuelve\ el\ hashi\ con\ los\ puentes\ de\ las\ islas\ afortunadas\ tendidos\n@return\ nuevasAfortunadas\ pone\ a\ verdadera\ la\ variable\ del\ metodo\ llamador\ "nuevasAfortunadas"\ si\ ha\nencontrado\ afortunadas\ nuevas\n\n\n
+comment5.params=hashiInicio\ hashiOriginal\ nuevasAfortunadas\ pasada\ myEntSal\ depuracion
+comment5.target=Hashi\ buscaSemiAfortunadas(Hashi,\ Hashi,\ boolean,\ int,\ EntSal,\ boolean)
+comment5.text=\nBusca\ SemiAfortunadas\:\ \n\nBusca\ islas\ Semi\ afortunadas\ en\ el\ Hashi\ y\ va\ tendiendo\ sus\ islas,\ devuelve\ el\ hashi\ con\ todos\ los\ puentes\nde\ las\ islas\ Semi\ afortunadas\ tendidos.\n\nLas\ islas\ semi\ afortunadas\ han\ de\ tender\ un\ solo\ puente\ a\ cada\ una\ de\ sus\ vecinas\n\n@param\ hashiInicio\ se\ le\ pasa\ este\ hashi\ para\ que\ busque\ islas\ afortunadas\ en\ el\n@return\ hashiInicio\ devuelve\ el\ hashi\ con\ los\ puentes\ de\ las\ islas\ afortunadas\ tendidos\n@return\ nuevasAfortunadas\ pone\ a\ verdadera\ la\ variable\ del\ metodo\ llamador\ "nuevasAfortunadas"\ si\ ha\nencontrado\ afortunadas\ nuevas\n\n\n
+comment6.params=listaDeIslasIniciales
+comment6.target=boolean\ inicialmenteValido(ArrayList<Isla>)
+comment6.text=\nPara\ que\ un\ hashi\ sea\ inicialmente\ valido\ el\ valor\ acumulado\ de\ sus\ islas\ en\ la\ lista\ ha\ de\ ser\ par\n\n
+comment7.params=listaOriginal
+comment7.target=ArrayList<Isla>\ clonarLista(ArrayList<Isla>)
+comment7.text=\nClonador\ de\ lista\ de\ Islas\n\n
+numComments=8

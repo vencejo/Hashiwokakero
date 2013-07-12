@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cola()
+comment1.target=boolean\ colaVacia()
+comment2.params=o
+comment2.target=void\ encolar(Tipo)
+comment3.target=void\ vaciarCola()
+comment4.target=Tipo\ desencolar()
+comment5.target=int\ getSize()
+comment5.text=public\ int\ getFin()\ {\nreturn\ fin;\n}\npublic\ int\ getInicio()\ {\nreturn\ inicio;\n}\n\n
+numComments=6

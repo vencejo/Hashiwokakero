@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AlmacenDeHashis()
+comment0.text=\nConstructor\ \n\n
+comment1.params=hashi
+comment1.target=void\ agregarAalmacenHashis(Hashi)
+comment1.text=\nAgrega\ hashis\ al\ almacen\n\n
+comment2.params=hashi
+comment2.target=boolean\ hashiDuplicado(Hashi)
+comment2.text=\nComprueba\ que\ un\ hashiEnsayo\ no\ est\u00E9\ duplicado\ en\ el\ Almacen\ de\ Hashis\n\n@param\ \ hashi\ \ el\ hashi\ \ que\ vamos\ a\ estudiar\n@param\ \ almacen\ la\ lista\ donde\ estan\ guardados\ los\ hashis\ a\ comprobar\n@return\ devuelve\ verdadero\ si\ el\ Hashi\ est\u00E1\ ya\ en\ el\ almacen\ de\ Hashis\ \n(recordermos\ que\ en\ el\ almacen\ de\ hashis\ meto\ todos\ los\ hashis\ que\ ya\ han\ sido\ considerados\ ,\npara\ evitar\ considerarlos\ mas\ de\ una\ vez)\n\n
+comment3.params=hashiA\ hashiB
+comment3.target=boolean\ iguales(Hashi,\ Hashi)
+comment3.text=\nDevuelve\ verdadero\ si\ dos\ hashis\ son\ iguales\n\n
+comment4.params=listaA\ listaB
+comment4.target=boolean\ igualdadConjuntos(HashSet<Puente>,\ HashSet<Puente>)
+comment4.text=\nCompara\ dos\ ArrayList\ de\ islas\ y\ devuelve\ verdadero\ si\ ambos\ tienen\ las\ mismas\ islas\ \n\n
+numComments=5
