@@ -1,4 +1,4 @@
-Proyecto Final de la UNED (Curso 2009-2010)
+Proyecto Final de la UNED (Curso 09-10)
 ===========================================================
 Lenguaje Java
 
